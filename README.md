@@ -18,9 +18,15 @@ These configurations are available on `_config.yml`:
 
 ```yml
 # following configurations allow showing thumbnails on post list
+
+# global settings, this enable/disable thumbnails forcibly
 post_thumbnails: true
-post_default_thubnail: "/relative/path/to/<my_default_thumbnail.png>" # this image will shown if the thumbnail was not specified in the post
-post_thumbnail_defaults: true # show default thumbnail in the post list
+
+# this image will shown if the thumbnail was not specified in the post
+post_default_thubnail: "/relative/path/to/<my_default_thumbnail.png>"
+
+# show default thumbnail in the post list if not specified
+post_thumbnail_defaults: true
 ```
 
 Also you have to specify `thumbnail` option in `_posts/0000-00-00-your-post.md`:
