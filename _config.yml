@@ -2,6 +2,8 @@ title: Jekyll Dark-Red Theme
 description: "A dark-red theme for Jekyll."
 lang: en
 
+exclude: [vendor]
+
 # copyright shown in footer
 copyright_text: "Copyright © 2020 Jekyll Dark-Red Theme. All Rights Reserved."
 
