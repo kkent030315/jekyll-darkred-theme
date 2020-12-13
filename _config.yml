@@ -4,10 +4,13 @@ lang: en
 
 exclude: [vendor]
 
-# copyright shown in footer
-copyright_text: "Copyright © 2020 Jekyll Dark-Red Theme. All Rights Reserved."
-
 # following configurations allow showing thumbnails on post list
+
+# enable/disable thumbnails forcibly
 post_thumbnails: true
-post_default_thubnail: "/assets/images/a.jpg" # this image will shown if the thumbnail was not specified in the post
-post_thumbnail_defaults: true # show default thumbnail in the post list
+
+# this image will shown if the thumbnail was not specified in the post
+post_default_thubnail: "/relative/path/to/<my_default_thumbnail.png>"
+
+# show default thumbnail in the post list if not specified
+post_thumbnail_defaults: true
