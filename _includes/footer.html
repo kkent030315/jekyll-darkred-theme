@@ -1,0 +1,15 @@
+<footer>
+    <div class="wrapper">
+        <div class="footer-container row">
+            <div class="left col">
+                <a class="footer-title" href="{{ " /" | relative_url }}">{{ site.title }}</a>
+                {%- if site.description -%}
+                <span class="footer-description">{{ site.description }}</span>
+                {%- endif -%}
+            </div>
+        </div>
+        {%- if site.copyright_text -%}
+        <span class="copyright">{{ site.copyright_text }}</span>
+        {%- endif -%}
+    </div>
+</footer>

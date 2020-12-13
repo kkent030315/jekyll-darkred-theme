@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div>
+    {%- if site.posts.size > 0 -%}
+    <ul class="posts-container">
+        {%- for post in site.posts -%}
+        <li>
+            <a href="{{ post.url | relative_url }}">
+                {%- if site.post_thumbnails -%}
+                    {%- if post.thumbnail -%}
+                    <img class="post-thumbnail" src="{{ post.thumbnail | relative_url }}" alt="">
+                    {%- elsif site.post_thumbnail_defaults -%}
+                    <img class="post-thumbnail" src="{{ site.post_default_thubnail | relative_url | default: "/assets/images/jekyll-og.png" }}" alt="">
+                    {%- endif -%}
+                {%- endif -%}
+                <div class="post-detail-container">
+                    <h1 class="post-title">{{ post.title }}</h1>
+                    {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+                    <span class="post-date">{{ post.date | date: date_format }}</span>
+                </div>
+            </a>
+        </li>
+        {%- endfor -%}
+    </ul>
+    {%- endif -%}
+</div>

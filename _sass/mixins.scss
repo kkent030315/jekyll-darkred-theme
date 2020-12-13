@@ -1,0 +1,19 @@
+@mixin no_text_decoration() {
+    text-decoration: none;
+    color: $color-font;
+}
+
+@mixin word_no_breaks() {
+    white-space: nowrap;
+}
+
+@mixin tablet() {
+    @media (max-width: (680px)) {
+        @content;
+    }
+}
+@mixin smartphone() {
+    @media (max-width: (480px)) {
+        @content;
+    }
+}

@@ -1,2 +1,11 @@
-title: Example
+title: Jekyll Dark-Red Theme
+description: "A dark-red theme for Jekyll."
 lang: en
+
+# copyright shown in footer
+copyright_text: "Copyright © 2020 Jekyll Dark-Red Theme. All Rights Reserved."
+
+# following configurations allow showing thumbnails on post list
+post_thumbnails: true
+post_default_thubnail: "/assets/images/a.jpg" # this image will shown if the thumbnail was not specified in the post
+post_thumbnail_defaults: true # show default thumbnail in the post list
