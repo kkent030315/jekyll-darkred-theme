@@ -1,2 +1,4 @@
+![IMAGE](image.png)
+
 # jekyll-darkred-theme
-A Jekyll theme with the dark-red design
+A dark-red theme for Jekyll.
