@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "darkred-theme"
+  spec.name          = "jekyll-darkred-theme"
   spec.version       = "0.1.0"
   spec.authors       = ["Kento Oki"]
   spec.email         = ["hrn832@protonmail.com"]
