@@ -19,7 +19,7 @@ These configurations are available on `_config.yml`:
 ```yml
 # following configurations allow showing thumbnails on post list
 
-# this enable/disable thumbnails forcibly
+# enable/disable thumbnails forcibly
 post_thumbnails: true
 
 # this image will shown if the thumbnail was not specified in the post
