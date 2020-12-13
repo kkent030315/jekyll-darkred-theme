@@ -7,7 +7,7 @@ exclude: [vendor]
 # following configurations allow showing thumbnails on post list
 
 # enable/disable thumbnails forcibly
-post_thumbnails: true
+post_thumbnails: false
 
 # this image will shown if the thumbnail was not specified in the post
 post_default_thumbnail: "/relative/path/to/<my_default_thumbnail.png>"

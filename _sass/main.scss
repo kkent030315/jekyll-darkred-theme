@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     background: $color-background;
     color: $color-font;
     min-height: 100vh;
@@ -202,6 +202,10 @@ code {
     font-family: "Source Code Pro", monospace, sans-serif !important;
 }
 
+.highlight > pre {
+    padding: 10px !important;
+}
+
 .post-body {
     width: 100%;
 
@@ -274,15 +278,12 @@ code {
     }
 
     .highlighter-rouge,
-    &.highlighter-rouge {
+    &.highlighter-rouge,
+    pre {
         background: $color-background-inner;
         padding: 2px 4px 2px 4px;
         border-radius: 4px;
         border: 1px solid $color-border-thin;
-
-        pre {
-            padding: 10px;
-        }
     }
 }
 
