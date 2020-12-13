@@ -12,7 +12,7 @@ layout: default
                     {%- if post.thumbnail -%}
                     <img class="post-thumbnail" src="{{ post.thumbnail | relative_url }}" alt="">
                     {%- elsif site.post_thumbnail_defaults -%}
-                    <img class="post-thumbnail" src="{{ site.post_default_thubnail | relative_url | default: "/assets/images/jekyll-og.png" }}" alt="">
+                    <img class="post-thumbnail" src="{{ site.post_default_thumbnail | relative_url | default: "/assets/images/jekyll-og.png" }}" alt="">
                     {%- endif -%}
                 {%- endif -%}
                 <div class="post-detail-container">
