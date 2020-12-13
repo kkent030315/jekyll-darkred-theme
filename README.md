@@ -9,3 +9,26 @@
 
 # jekyll-darkred-theme
 A dark-red theme for Jekyll.
+
+# Configurations
+
+The theme is designed to use on blogs, thus you are free to use thumbnails for each posts.
+
+These configurations are available on `_config.yml`:
+
+```yml
+# following configurations allow showing thumbnails on post list
+post_thumbnails: true
+post_default_thubnail: "/relative/path/to/<my_default_thumbnail.png>" # this image will shown if the thumbnail was not specified in the post
+post_thumbnail_defaults: true # show default thumbnail in the post list
+```
+
+Also you have to specify `thumbnail` option in `_posts/0000-00-00-your-post.md`:
+
+```yml
+---
+layout: post
+title: Hello World!
+thumbnail: "/relative/path/to/thumbnail.png"
+---
+```
