@@ -10,7 +10,7 @@
 # jekyll-darkred-theme
 A dark-red theme for Jekyll.
 
-[Demo](https://kkent030315.github.io/jekyll-darkred-theme)) is available at Github-Pages.
+[Demo](https://kkent030315.github.io/jekyll-darkred-theme) is available at Github-Pages.
 
 # Configurations
 
