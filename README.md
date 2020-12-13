@@ -23,13 +23,14 @@ These configurations are available on `_config.yml`:
 post_thumbnails: true
 
 # this image will shown if the thumbnail was not specified in the post
-post_default_thubnail: "/relative/path/to/<my_default_thumbnail.png>"
+post_default_thumbnail: "/relative/path/to/<my_default_thumbnail.png>"
 
 # show default thumbnail in the post list if not specified
 post_thumbnail_defaults: true
 ```
 
 Also you have to specify `thumbnail` option in `_posts/0000-00-00-your-post.md`:
+(if not, the default thumbnail will be attached if `post_thumbnail_defaults` is true)
 
 ```yml
 ---
