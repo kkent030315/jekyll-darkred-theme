@@ -10,6 +10,8 @@
 # jekyll-darkred-theme
 A dark-red theme for Jekyll.
 
+[Demo](https://kkent030315.github.io/jekyll-darkred-theme)) is available at Github-Pages.
+
 # Configurations
 
 The theme is designed to use on blogs, thus you are free to use thumbnails for each posts.
