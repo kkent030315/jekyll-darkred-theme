@@ -209,6 +209,26 @@ code {
 .post-body {
     width: 100%;
 
+    .post-details {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        border-left: 2px solid $color-primary;
+        padding-left: 14px;
+        padding-bottom: 4px;
+    }
+
+    .post-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        border: 0 !important;
+    }
+
+    .post-date {
+        color: $color-font-thin;
+        font-family: 'Source Code Pro', sans-serif, monospace;
+    }
+
     > * {
         margin-bottom: 12px;
     }
