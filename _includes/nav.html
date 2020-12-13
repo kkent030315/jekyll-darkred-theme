@@ -5,7 +5,7 @@
 <nav class="navigation">
     {%- for path in page_paths -%}
         {%- assign x = site.pages | where: "path", path | first -%}
-        {%- if x.title and not x.title contains "404" -%}
+        {%- if x.title and !x.title contains "404" -%}
         <a class="nav-item" href="{{ x.url | relative_url }}">{{ x.title }}</a>
         {%- endif -%}
     {%- endfor -%}
