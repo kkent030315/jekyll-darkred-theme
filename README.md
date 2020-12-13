@@ -22,7 +22,7 @@ These configurations are available on `_config.yml`:
 # enable/disable thumbnails forcibly
 post_thumbnails: true
 
-# this image will shown if the thumbnail was not specified in the post
+# image will shown if the thumbnail was not specified in the post
 post_default_thubnail: "/relative/path/to/<my_default_thumbnail.png>"
 
 # show default thumbnail in the post list if not specified
